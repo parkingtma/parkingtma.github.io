@@ -1,0 +1,770 @@
+{
+    "parkingcrew": {
+        "record_types": {
+            "ns": [
+                { "ilike": "ns%.parkingcrew.net." },
+                { "ilike": "ns%.fastpark.net." },
+                { "ilike": "ns%.parkingspa.com." },
+                { "ilike": "ns%.ibspark.com." }
+            ],
+            "a": ["185.53.176.0/22"],
+            "cname": [
+                { "ilike": "%.parkingcrew.net." },
+                { "ilike": "%.ndparking.com." },
+                "ndparking.com."
+            ]
+        },
+        "friendly_name": "ParkingCrew",
+        "type": "parking"
+    },
+    "dancom": {
+        "record_types": {
+            "a": ["3.64.163.50/32", "52.58.78.16/32"],
+            "aaaa": ["2a05:d014:9da:8c10:306e:3e07:a16f:a552/128"],
+            "ns": [
+                "ns1.dan.com",
+                "ns2.dan.com",
+                "ns1.undeveloped.com",
+                "ns2.undeveloped.com",
+                "domain-for-sale.at.",
+                "www.undeveloped.com----type.in.",
+                "your-browser.this-domain.eu.",
+                "ns1.park.do.",
+                "ns2.park.do.",
+                { "ilike": "verification-%.ns%.dan.hosting." }
+            ]
+        },
+        "friendly_name": "dan.com",
+        "type": "marketplace"
+    },
+    "fabulous_directnic": {
+        "record_types": {
+            "ns": [
+                { "ilike": "expired-domain-ns%.fabulous.com." },
+                { "ilike": "expired-domain-ns%.directnic.com." }
+            ]
+        },
+        "friendly_name": "Fabulous / Directnic",
+        "type": "parking"
+    },
+    "godaddy_parking": {
+        "record_types": {
+            "a": ["34.102.136.180/32", "34.98.99.30/32"]
+        },
+        "friendly_name": "GoDaddy Parking",
+        "type": "parking"
+    },
+    "godaddy_cashparking": {
+        "record_types": {
+            "ns": [
+                "ns01.cashparking.com",
+                "ns02.cashparking.com",
+                "ns1.smartname.com",
+                "ns2.smartname.com",
+                "ns1.namefind.com",
+                "ns2.namefind.com"
+            ],
+            "a": ["35.186.238.101/32"]
+        },
+        "friendly_name": "GoDaddy CashParking",
+        "type": "parking"
+    },
+    "sedo": {
+        "record_types": {
+            "ns": [
+                "ns1.sedoparking.com",
+                "ns2.sedoparking.com",
+                "cns1.sedoparking.com",
+                "cns2.sedoparking.com"
+            ],
+            "a": [
+                "91.195.240.0/23",
+                "64.190.62.0/23"
+            ],
+            "cname": [{ "ilike": "%.sedoparking.com." }]
+        },
+        "friendly_name": "Sedo",
+        "type": "mixed"
+    },
+    "uniregistry": {
+        "record_types": {
+            "ns": [
+                "ns1.uniregistrymarket.link",
+                "ns2.uniregistrymarket.link",
+                { "ilike": "%.expired.uniregistry-dns.com." }
+            ],
+            "a": ["52.128.23.153/32", "34.102.221.37/32"]
+        },
+        "friendly_name": "Uniregistry",
+        "type": "mixed"
+    },
+    "bodis": {
+        "record_types": {
+            "ns": [
+                "ns1.bodis.com",
+                "ns2.bodis.com"
+            ],
+            "a": ["199.59.240.0/22"],
+            "cname": ["parking.bodis.com"]
+        },
+        "friendly_name": "BODIS",
+        "type": "parking"
+    },
+    "namecheap": {
+        "record_types": {
+            "cname": [
+                "parkingpage.namecheap.com",
+                "parking.namecheap.com"
+            ],
+            "a": ["99.83.154.118/32"]
+        },
+        "friendly_name": "Namecheap",
+        "type": "parking"
+    },
+    "namecheap_pending": {
+        "record_types": {
+            "ns": [
+                "failed-whois-verification.namecheap.com.",
+                "verify-contact-details.namecheap.com."
+            ]
+        },
+        "friendly_name": "Namecheap (WHOIS Pending)",
+        "type": "placeholder"
+    },
+    "above": {
+        "record_types": {
+            "ns": [
+                {"ilike": "%ns%.above.com."}
+            ],
+            "a": ["103.224.182.0/23", "103.224.212.0/23"]
+        },
+        "friendly_name": "Above",
+        "type": "parking"
+    },
+    "domainsponsor_rookmedia": {
+        "record_types": {
+            "ns": [
+                "ns1.dsredirection.com",
+                "ns2.dsredirection.com",
+                "ns1.dsredirects.com",
+                "ns2.dsredirects.com",
+                { "ilike": "ns%.rookdns.com." },
+                { "ilike": "ns%.dnsspark.com." }
+            ],
+            "a": ["66.81.199.0/24", "141.8.224.195/32"],
+            "cname": [
+                { "ilike": "%.fwdservice.com." },
+                { "ilike": "%.dsredirects.com." },
+                { "ilike": "%.dsredirection.com." },
+                "dsredirection.com."
+            ]
+        },
+        "friendly_name": "DomainSponsor / Rook Media",
+        "type": "parking"
+    },
+    "theparkingplace": {
+        "record_types": {
+            "ns": [
+                "ns1.pql.net",
+                "ns2.pql.net",
+                "ns3.tppns.com",
+                "ns4.tppns.com"
+            ]
+        },
+        "friendly_name": "The Parking Place",
+        "type": "parking"
+    },
+    "savcom": {
+        "record_types": {
+            "cname": [
+                "prod-sav-park-lb01-1919960993.us-east-2.elb.amazonaws.com",
+                {"ilike": "%.dsextra.com."}
+            ],
+            "ns": [
+                "ns1.sav.com.",
+                "ns2.sav.com."
+            ]
+        },
+        "friendly_name": "Sav",
+        "type": "mixed"
+    },
+    "domaincom": {
+        "record_types": {
+            "a": ["207.148.248.143/32", "207.148.248.145/32"]
+        },
+        "friendly_name": "domain.com",
+        "type": "marketplace"
+    },
+    "skenzo": {
+        "record_types": {
+            "a": [
+                "208.91.196.0/23",
+                "208.91.196.46/32",
+                "208.91.197.46/32",
+                "208.91.197.91/32",
+                "209.99.40.222/32",
+                "209.99.64.0/24",
+                "204.11.56.0/23",
+                "199.191.50.0/24"
+            ],
+            "ns": [
+                { "ilike": "%.ztomy.com." },
+                { "ilike": "%.cnomy.com." },
+                { "ilike": "dns%.malkm.com." },
+                { "ilike": "dns%.parking-page.net." },
+                { "ilike": "%.searchreinvented.com." },
+                { "ilike": "ns%.nsresolution.com." }
+            ],
+            "cname": [
+                { "ilike": "%.searchmagnified.com." }
+            ]
+        },
+        "friendly_name": "Skenzo",
+        "type": "parking"
+    },
+    "linkuwant": {
+        "record_types": {
+            "a": ["199.58.179.10/32"]
+        },
+        "friendly_name": "linkUwant.com",
+        "type": "marketplace"
+    },
+    "hostinger": {
+        "record_types": {
+            "a": ["2.57.90.16/32"]
+        },
+        "friendly_name": "Hostinger",
+        "type": "placeholder"
+    },
+    "internetvikings": {
+        "record_types": {
+            "ns": [
+                "parkdns1.internetvikings.com",
+                "parkdns2.internetvikings.com"
+            ]
+        },
+        "friendly_name": "Internet Vikings",
+        "type": "parking"
+    },
+    "dnspod": {
+        "record_types": {
+            "cname": ["domainparking-dnspod.cn"]
+        },
+        "friendly_name": "DNSPod",
+        "type": "marketplace"
+    },
+    "flippa": {
+        "record_types": {
+            "cname": ["webapp.parkingpage.production.flippa.com"]
+        },
+        "friendly_name": "Flippa",
+        "type": "marketplace"
+    },
+    "parklogic": {
+        "record_types": {
+            "cname": [{ "regex": "pltraffic([0-9]+)\\.com\\." }],
+            "ns": [
+                "ns1.parklogic.com",
+                "ns2.parklogic.com"
+            ]
+        },
+        "friendly_name": "ParkLogic",
+        "type": "parking"
+    },
+    "snparking": {
+        "record_types": {
+            "ns": [
+                { "ilike": "ns%.snparking.ru." },
+                { "ilike": "ns%.salenames.ru." }
+            ]
+        },
+        "friendly_name": "SNPARKING",
+        "type": "parking"
+    },
+    "namebright": {
+        "record_types": {
+            "cname": [
+                "comingsoon.namebright.com",
+                "expired.namebright.com."
+            ]
+        },
+        "friendly_name": "Namebright",
+        "type": "placeholder"
+    },
+    "hugedomains": {
+        "record_types": {
+            "cname": [
+                "HDRedirect-LB5-1afb6e2973825a56.elb.us-east-1.amazonaws.com.",
+                "HDRedirect-LB6-54290b28133ca5af.elb.us-east-1.amazonaws.com.",
+                "HDRedirect-LB7-5a03e1c2772e1c9c.elb.us-east-1.amazonaws.com.",
+                "HDRedirect-ALB1-2116697319.us-east-1.elb.amazonaws.com.",
+                "AutoScale-HDRedirect-ALB-1-1859847625.us-east-1.elb.amazonaws.com.",
+                "hdr-lb-1866061388.us-east-2.elb.amazonaws.com.",
+                "hdr-lb2-59261dc752b7eb2c.elb.us-east-2.amazonaws.com.",
+                "hdr-nlb1-b82539ff31a06c72.elb.us-east-2.amazonaws.com.",
+                "hdr-nlb2-6f669036b52094e0.elb.us-east-2.amazonaws.com.",
+                "hdr-nlb3-a374aff88888f97b.elb.us-east-2.amazonaws.com.",
+                "hdr-nlb4-0bbd2e21834cb637.elb.us-east-2.amazonaws.com.",
+                "hdr-nlb5-4e815dd67a14bf7f.elb.us-east-2.amazonaws.com.",
+                "hdr-nlb6-cf0dd8b891b4c813.elb.us-east-2.amazonaws.com.",
+                "hdr-nlb9-41371129e8304c29.elb.us-east-1.amazonaws.com.",
+                { "like": "traff-%.hugedomains.com." }
+            ]
+        },
+        "friendly_name": "HugeDomains.com",
+        "type": "marketplace"
+    },
+    "afternic": {
+        "record_types": {
+            "ns": [
+                { "ilike": "ns%.afternic.com." }
+            ]
+        },
+        "friendly_name": "Afternic",
+        "type": "marketplace"
+    },
+    "sitematrix": {
+        "record_types": {
+            "ns": [
+                { "ilike": "ns%.mytrafficmanagement.com." },
+                { "ilike": "ns%.securetrafficrouting.com." },
+                { "ilike": "ns%.trafficcontrolrouter.com." },
+                { "ilike": "ns%.searchfusion.com." }
+            ]
+        },
+        "friendly_name": "TrafficMotor",
+        "type": "parking"
+    },
+    "voodoo": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.voodoo.com." }],
+            "a": ["192.64.147.0/24"]
+        },
+        "friendly_name": "Voodoo",
+        "type": "parking"
+    },
+    "aliyun_expired": {
+        "record_types": {
+            "cname": ["overdue.aliyun.com."]
+        },
+        "friendly_name": "Aliyun",
+        "type": "marketplace"
+    },
+    "unknown_surveysmiles": {
+        "record_types": {
+            "ns": [
+                { "ilike": "ns%.rentondc.com." },
+                { "ilike": "ns%.panamans.com." },
+                { "ilike": "ns%.torresdns.com." },
+                { "ilike": "ns%.thednscloud.com." },
+                { "ilike": "ns%.brainydns.com." },
+                { "ilike": "ns%.dnsnuts.com." },
+                { "ilike": "ns%.hostresolver.com." },
+                { "ilike": "ns%.kirklanddc.com." },
+                { "ilike": "ns%.tacomadc.com." },
+                { "ilike": "ns%.emu-dns.com." },
+                { "ilike": "ns%.milesmx.com." },
+                { "ilike": "ns%.smtmdns.com." },
+                { "ilike": "ns%.taipandns.com." },
+                { "ilike": "ns%.redmonddc.com." },
+                { "ilike": "ns%.domainmx.com." },
+                { "ilike": "ns%.commonmx.com." },
+                { "ilike": "ns%.wombatdns.com." },
+                { "ilike": "ns%.hastydns.com." },
+                { "ilike": "ns%.koaladns.com." },
+                { "ilike": "ns%.magpiedns.com." },
+                { "ilike": "ns%.dingodns.com." },
+                { "ilike": "ns%.namedynamics.net." },
+                { "ilike": "ns%.quokkadns.com." },
+                { "ilike": "ns%.weaponizedcow.com." },
+                { "ilike": "ns%.chookdns.com." }
+            ]
+        },
+        "friendly_name": "Unknown survey-smiles.com",
+        "type": "parking"
+    },
+    "traffic_club": {
+        "record_types": {
+            "ns": [
+                { "ilike": "%.sslparking.com." },
+                { "ilike": "ns%.ndsplitter.com." }
+            ],
+            "cname": ["cname.sslparking.com."]
+        },
+        "friendly_name": "traffic.club",
+        "type": "parking"
+    },
+    "domaindiscount24": {
+        "record_types": {
+            "ns": [
+                { "ilike": "ns%.expirationwarning.net." },
+                { "ilike": "ns%.emailverification.info." }
+            ]
+        },
+        "friendly_name": "domaindiscount24",
+        "type": "placeholder"
+    },
+    "domainmarket": {
+        "record_types": {
+            "ns": [
+                "ns1.domain-is-4-sale-at-domainmarket.com",
+                "ns2.domainmarket.com"
+            ]
+        },
+        "friendly_name": "DomainMarket",
+        "type": "marketplace"
+    },
+    "tucows": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.renewyourname.net." }]
+        },
+        "friendly_name": "Tucows",
+        "type": "parking"
+    },
+    "squadhelp": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.squadhelp.com." }]
+        },
+        "friendly_name": "Squadhelp",
+        "type": "marketplace"
+    },
+    "domainist": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.domainist.com." }]
+        },
+        "friendly_name": "Domainist",
+        "type": "marketplace"
+    },
+    "domainbrokers": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.domain-for-sale.se." }]
+        },
+        "friendly_name": "Domain Brokers Sweden",
+        "type": "marketplace"
+    },
+    "expiereddnsmanager": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.expiereddnsmanager.com." }]
+        },
+        "friendly_name": "Unknown Expired",
+        "type": "parking"
+    },
+    "domainrecover": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.domainrecover.com." }]
+        },
+        "friendly_name": "domain recover",
+        "type": "marketplace"
+    },
+    "dne_com": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.dne.com." }]
+        },
+        "friendly_name": "Domain Name Experts",
+        "type": "mixed"
+    },
+    "nameprovider": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.nameprovider.net." }]
+        },
+        "friendly_name": "nameprovider.net",
+        "type": "marketplace"
+    },
+    "domainprofi": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.domainprofi.de." }]
+        },
+        "friendly_name": "DomainProfi",
+        "type": "marketplace"
+    },
+    "sonexo_dnfs24": {
+        "record_types": {
+            "ns": ["ns1.sonexo.eu.", "ns2.sonexo.com."]
+        },
+        "friendly_name": "Sonexo",
+        "type": "marketplace"
+    },
+    "domain_io": {
+        "record_types": {
+            "ns": ["ns1.domain.io.", "ns2.domain.io."]
+        },
+        "friendly_name": "domain.io",
+        "type": "marketplace"
+    },
+    "domaincntrol": {
+        "record_types": {
+            "ns": [{ "ilike": "%.domaincntrol.com." }]
+        },
+        "friendly_name": "Unknown Domaincntrol",
+        "type": "parking"
+    },
+    "brandbucket": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.brandbucket.com." }]
+        },
+        "friendly_name": "BrandBucket",
+        "type": "marketplace"
+    },
+    "efty": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.eftydns.com." }]
+        },
+        "friendly_name": "efty",
+        "type": "marketplace"
+    },
+    "domainname_de": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.redirectdom.com." }]
+        },
+        "friendly_name": "domainname.de",
+        "type": "marketplace"
+    },
+    "domainbox_expired": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.domainhasexpired.com." }]
+        },
+        "friendly_name": "Domainbox",
+        "type": "placeholder"
+    },
+    "domainpower": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.dnslink.com." }]
+        },
+        "friendly_name": "DomainPower",
+        "type": "parking"
+    },
+    "bluehost": {
+        "record_types": {
+            "a": [
+                "74.220.199.6/32",
+                "74.220.199.8/32",
+                "74.220.199.9/32",
+                "74.220.199.14/32",
+                "74.220.199.15/32"
+            ]
+        },
+        "type": "parking",
+        "friendly_name": "bluehost"
+    },
+    "alter_com": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.alter.com." }],
+            "a": ["3.234.55.179/32"]
+        },
+        "friendly_name": "Alter",
+        "type": "marketplace"
+    },
+    "domainparking_ru": {
+        "record_types": {
+            "ns": [{ "ilike": "ns%.domainparking.ru." }],
+            "a": ["31.31.205.163/32"]
+        },
+        "friendly_name": "DomainParking.ru",
+        "type": "marketplace"
+    },
+    "turkticaret": {
+        "record_types": {
+            "a": ["31.186.11.254/32"]
+        },
+        "friendly_name": "Turkticaret.Net",
+        "type": "placeholder"
+    },
+    "123reg_parking": {
+        "record_types": {
+            "a": ["35.227.197.36/32"]
+        },
+        "friendly_name": "123 Reg (Parking)",
+        "type": "parking"
+    },
+    "123reg_placeholder": {
+        "record_types": {
+            "a": ["94.136.40.51/32"]
+        },
+        "friendly_name": "123 Reg (Placeholder)",
+        "type": "placeholder"
+    },
+    "transip": {
+        "record_types": {
+            "a": ["37.97.254.27/32"]
+        },
+        "friendly_name": "transip",
+        "type": "placeholder"
+    },
+    "wangguai": {
+        "record_types": {
+            "a": ["43.128.56.249/32"]
+        },
+        "friendly_name": "WangGuai.com",
+        "type": "marketplace"
+    },
+    "epik": {
+        "record_types": {
+            "a": ["45.88.202.115/32"]
+        },
+        "friendly_name": "Epik",
+        "type": "marketplace"
+    },
+    "domainmarkt_de": {
+        "record_types": {
+            "a": ["46.4.13.97/32"]
+        },
+        "friendly_name": "domainmarkt.de",
+        "type": "marketplace"
+    },
+    "regtons": {
+        "record_types": {
+            "a": ["46.8.8.100/32"],
+            "ns": [{ "ilike": "ns%.parktons.com." }]
+        },
+        "friendly_name": "Regtons",
+        "type": "parking"
+    },
+    "wedos": {
+        "record_types": {
+            "a": ["46.28.105.2/32"]
+        },
+        "friendly_name": "wedos",
+        "type": "placeholder"
+    },
+    "onecom": {
+        "record_types": {
+            "a": ["46.30.211.38/32"]
+        },
+        "friendly_name": "one.com",
+        "type": "placeholder"
+    },
+    "alibaba_expired": {
+        "record_types": {
+            "a": ["47.91.170.222/32"]
+        },
+        "friendly_name": "Alibaba Expired",
+        "type": "placeholder"
+    },
+    "101domain": {
+        "record_types": {
+            "a": ["52.60.87.163/32"]
+        },
+        "friendly_name": "101domain",
+        "type": "placeholder"
+    },
+    "aruba_it": {
+        "record_types": {
+            "a": ["62.149.128.40/32"]
+        },
+        "friendly_name": "aruba.it",
+        "type": "placeholder"
+    },
+    "dynadot": {
+        "record_types": {
+            "a": ["75.2.18.233/32", "75.2.115.196/32"]
+        },
+        "friendly_name": "Dynadot",
+        "type": "parking"
+    },
+    "forpsi": {
+        "record_types": {
+            "a": ["81.2.194.128/32"]
+        },
+        "friendly_name": "forpsi internet CZ",
+        "type": "placeholder"
+    },
+    "hostnet": {
+        "record_types": {
+            "a": ["91.184.0.100/32"]
+        },
+        "friendly_name": "Hostnet.nl",
+        "type": "placeholder"
+    },
+    "markmonitor": {
+        "record_types": {
+            "a": ["93.191.168.52/32"]
+        },
+        "friendly_name": "Markmonitor",
+        "type": "placeholder"
+    },
+    "enom": {
+        "record_types": {
+            "a": ["98.124.204.16/32"]
+        },
+        "friendly_name": "Enom (WHOIS Pending)",
+        "type": "placeholder"
+    },
+    "west_cn": {
+        "record_types": {
+            "a": ["103.139.0.32/32"]
+        },
+        "friendly_name": "west.cn",
+        "type": "placeholder"
+    },
+    "22_cn": {
+        "record_types": {
+            "a": ["119.28.128.52/32"]
+        },
+        "friendly_name": "22.cn",
+        "type": "marketplace"
+    },
+    "gabia": {
+        "record_types": {
+            "a": ["121.254.178.252/32"]
+        },
+        "friendly_name": "gabia",
+        "type": "placeholder"
+    },
+    "perfectdomain": {
+        "record_types": {
+            "a": ["164.90.244.158/32", "159.89.244.183/32"],
+            "ns": [{"ilike": "ns%.perfectdomain.com."}]
+        },
+        "friendly_name": "PerfectDomain",
+        "type": "marketplace"
+    },
+    "domainname_shop": {
+        "record_types": {
+            "a": ["185.134.245.113/32"]
+        },
+        "friendly_name": "domainname.shop",
+        "type": "placeholder"
+    },
+    "hostgator": {
+        "record_types": {
+            "a": ["192.185.0.218/32"]
+        },
+        "friendly_name": "HostGator",
+        "type": "placeholder"
+    },
+    "regru": {
+        "record_types": {
+            "a": ["194.58.112.165/32", "194.58.112.174/32"]
+        },
+        "friendly_name": "REG.RU",
+        "type": "marketplace"
+    },
+    "fasthosts": {
+        "record_types": {
+            "a": ["213.171.195.105/32"]
+        },
+        "friendly_name": "fasthosts",
+        "type": "placeholder"
+    },
+    "hostpoint": {
+        "record_types": {
+            "a": ["217.26.48.101/32"]
+        },
+        "friendly_name": "Hostpoint",
+        "type": "placeholder"
+    },
+    "trustednam_es": {
+        "record_types": {
+            "ns": [{"ilike": "ns%.trustednam.es."}]
+        },
+        "friendly_name": "TRUSTEDNAMES",
+        "type": "marketplace"
+    },
+    "domainorder": {
+        "record_types": {
+            "ns": [{"ilike": "ns%.domainorderdns.nl."}]
+        },
+        "friendly_name": "DomainOrder",
+        "type": "marketplace"
+    }
+}
