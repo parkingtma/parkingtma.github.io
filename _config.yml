@@ -1,6 +1,6 @@
 theme: minima
 title: "TMA 2022 Domain Parking"
-author: "Anonymous Authors"
+author: "Authors: Johannes Zirngibl, Steffen Deusch, Patrick Sattler, Juliane Aulbach, Georg Carle, and Mattijs Jonker"
 plugins:
   - jekyll-titles-from-headings
 titles_from_headings:
