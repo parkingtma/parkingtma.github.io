@@ -1,6 +1,6 @@
 # Domain Parking: Largely Present, Rarely Considered!
 
-Authors: TBA
+Authors: Johannes Zirngibl, Steffen Deusch, Patrick Sattler, Juliane Aulbach, Georg Carle, and Mattijs Jonker
 
 ## Abstract
 
@@ -8,10 +8,25 @@ Domain parking typically involves leveraging advertisements to generate revenue 
 
 We argue that the impact of parked domains on analyses regarding the current state and future development of the Internet should not be overlooked. In this paper, we motivate this argument through quantification, and take steps towards helping other researchers identify parked domains.
 
-We systematically collect a list of 82 parking services and develop DNS-based indicators to help identify parked domains. We next quantify the presence of parked domains, using large-scale DNS data containing hundreds of millions of registered domain names, representative for a significant part of the global DNS namespace. Overall, we pinpoint 60M parked domains, which is a significant percentage of all names under consideration (23 %). These findings demonstrate that the effect of parked pages is potentially pronounced. We also break down into the various parking services and DNS zones. This helps us demonstrate and further discuss the effect that domain parking can have on research and Internet consolidation.
+We systematically collect a list of 82 parking services and develop DNS-based indicators to help identify parked domains. We next quantify the presence of parked domains, using large-scale DNS data containing hundreds of millions of registered domain names, representative for a significant part of the global DNS namespace. Overall, we pinpoint 60 M parked domains, which is a significant percentage of all names under consideration (23 %) and identify up to 4 % of domains from top lists to be parked. These findings demonstrate that the effect of parked pages is potentially pronounced. We also break down into the various parking services and DNS zones. This helps us demonstrate and further discuss the effect that domain parking can have on research and Internet consolidation.
 
 ## Parking Services
 
 Our definitions for the 82 parking services can be found in the following `json` file:
 
 [parking_services.json](https://tma22-parking.github.io/parking_services.json)
+
+## Referencing our Work
+
+If you are using collected parking service indicators or results from this work in your publication, please refer to it with the following reference [bib](https://tma22-parking.github.io/zirngibl2022prevalenceofparking.bib)
+
+```
+@inproceedings{zirngibl2022prevalenceofparking,
+  author = {Zirngibl, Johannes and Deusch, Steffen and Sattler, Patrick and Aulbach, Juliane and Carle, Georg and Jonker, Mattijs},
+  title = {{Domain Parking: Largely Present, Rarely Considered!}},
+  booktitle = {Proc. Network Traffic Measurement and Analysis Conference (TMA) 2022},
+  year = {2022},
+  month = jun,
+  month_numeric = {6}
+}
+```
