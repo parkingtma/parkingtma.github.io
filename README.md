@@ -23,7 +23,7 @@ If you are using collected parking service indicators or results from this work 
 ```
 @inproceedings{zirngibl2022prevalenceofparking,
   author = {Zirngibl, Johannes and Deusch, Steffen and Sattler, Patrick and Aulbach, Juliane and Carle, Georg and Jonker, Mattijs},
-  title = {{Domain Parking: Largely Present, Rarely Considered!}},
+  title = {Domain Parking: Largely Present, Rarely Considered!},
   booktitle = {Proc. Network Traffic Measurement and Analysis Conference (TMA) 2022},
   year = {2022},
   month = jun,
