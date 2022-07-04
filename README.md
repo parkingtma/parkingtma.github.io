@@ -16,6 +16,15 @@ Our definitions for the 82 parking services can be found in the following `json`
 
 [parking_services.json](https://tma22-parking.github.io/parking_services.json)
 
+The indicators can be used to identify parked domains based on DNS resolutions.
+Depending on the service, either IP addresses, name servers or canonical names are used for identification.
+Thus successfull detection requires A, AAAA, CNAME and NS queries.
+
+## Parked Domains
+
+We are happy to share parked domains based on regularly conducted scans of more than 300 M domains on request.
+To request data, please send <a href="mailto:data-request@net.in.tum.de"> us an E-Mail</a> including your affiliation and why you want access to parked domains.
+
 ## Referencing our Work
 
 If you are using collected parking service indicators or results from this work in your publication, please refer to it with the following reference [bib](https://tma22-parking.github.io/zirngibl2022prevalenceofparking.bib)
